@@ -1,0 +1,7 @@
+/node_modules/
+/venv/
+/data/
+
+.env             # Environment variables
+*.log            # All log files
+*.csv            # Ignore CSV files (if you don't want to track the output)
