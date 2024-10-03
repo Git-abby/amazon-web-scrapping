@@ -24,12 +24,3 @@ for file in os.listdir("data"):
 
 df = pd.DataFrame(data=d)
 df.to_csv("data.csv")
-# for s in soup:
-#       # print(s.h2.get_text())
-#       try:
-#           print( "https://www.amazon.ca/" + s.find("a", class_="a-link-normal")['href'])
-#           # print(s.find("span", class_="a-price").span.string)
-#       except Exception as e:
-#           print(f"Not found {e} in {file}")
-#   # print(title)
-#   # print(soup.prettify())
